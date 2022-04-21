@@ -8,7 +8,7 @@
       <h2 to="/Post">Latest Posts</h2>
 ´    <PagePost title="Latest Posts" v-bind:posts="posts" />
     <h2 to="/Todos">My Todos</h2>
- <ToDos title="My Todos" v-bind:todos="todos" />
+ <ToDos title="My Todos" v-bind:todos="todos" class="d-sm-flex"/>
    </div>
   </div>
 </template>

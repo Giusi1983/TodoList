@@ -1,9 +1,9 @@
 <template>
-  <div class="PagePost">
-    <div v-bind:key="post.id" v-for="post in posts" class="container justify">
-     <div class="card row d-sm-flex col-4">
-      <div class="card-body col-sm-12">
-        <div class="justify">
+  <div class="PagePost d-sm-flex">
+    <div v-bind:key="post.id" v-for="post in posts" class="container justify d-sm-flex col-4 m-2 p-6">
+     <div class="card row">
+      <div class="card-body">
+        <div class="justify pr-55">
          <p>{{post.user_id}}</p>
           <h5>{{post.title}}</h5>
            <p>{{post.body}}</p>
