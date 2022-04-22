@@ -1,5 +1,5 @@
 <template>
- <div class="Todo container">
+ <div class="Todo container" style="width:450px">
    <div class="todo-item container col md m-2 p-6" v-bind:class="{'is-complete': todo.completed}">
      <div class="card row">
         <div class="card-body">
