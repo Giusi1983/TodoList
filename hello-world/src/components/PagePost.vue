@@ -1,7 +1,7 @@
 <template>
-  <div class="PagePost d-sm-flex">
-    <div v-bind:key="post.id" v-for="post in posts" id="container_post" class="container justify d-sm-flex col-3 p-6">
-     <div class="card row" style="width: 350px">
+  <div class="PagePost d-sm-flex ml-3">
+    <div v-bind:key="post.id" v-for="post in posts" id="container_post" class="container justify p-6">
+     <div class="card row" style="width: 350px; min-height: 450px;">
       <div class="card-body">
         <div class="justify pr-55">
          <p>{{post.user_id}}</p>
