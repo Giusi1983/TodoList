@@ -4,7 +4,7 @@
       title="Latest Posts"
       id="post-page" class="vs-con-loading_container"
       />
-      <div class="w-full text-xl md:text-2x1 font-bold col-4" id="page_container">
+      <div class="w-full text-xl md:text-2x1 font-bold" id="page_container">
       <h2 to="/Post">Latest Posts</h2>
 ´    <PagePost title="Latest Posts" v-bind:posts="posts" />
     <h2 to="/Todos" class="mt-5">My Todos</h2>
